@@ -294,9 +294,9 @@ def process_single_or_batch(path, watermark_path, vault_path, obsidian_images_fo
 # 使用例
 if __name__ == "__main__":
     # 設定
-    TARGET_PATH = "/Users/hiroyasu/projects/sd_processor/sd_images"       # 画像ファイルまたはフォルダのパス
-    WATERMARK_PATH = "/Users/hiroyasu/projects/sd_processor/logo_shimodan.png"  # ウォーターマーク画像のパス
-    VAULT_PATH = "/Users/hiroyasu/Library/Mobile Documents/iCloud~md~obsidian/Documents/myObsidian"     # Obsidian vaultのパス
+    TARGET_PATH = "path/to/your/sd_images"       # 画像ファイルまたはフォルダのパス
+    WATERMARK_PATH = "path/to/your/sample.png"  # ウォーターマーク画像のパス
+    VAULT_PATH = "path/to/your/myObsidian"     # Obsidian vaultのパス
 
     # フォルダ設定（カスタマイズ可能）
     IMAGES_FOLDER = "attachments"             # 画像保存フォルダ
